@@ -15,5 +15,12 @@
         {"Nome": "Izanami", "Panteao": "Xintoísta", "Habilidade mesa": "Descarte essa carta e destrua 1 deus de cada oponente"},
         {"Nome": "Susanoo", "Panteao": "Xintoísta", "Habilidade mao": "Devolve todas as cartas de um panteão a sua escolha para a mão dos dono\nExceto xintoísta",
         "Habilidade mesa": "Descarta uma carta do mercado e repõe imediatamente", "Nobre": true}
+    ],
+
+    "Campo": [
+        {"Nome": "Monte Olimpo", "Panteao": "Grego", "Habilidade": "Se um deus for colocado nesse campo, destrua um deus do próximo jogador"},
+        {"Nome": "Rio Nilo", "Panteao": "Egipício", "Habilidade": "Descarte uma carta da sua mão e compre uma nova"},
+        {"Nome": "Yggdrasil", "Panteao": "Nórdico", "Habilidade": "Se tiver um deus nesse campo, todos os deuses nórdicos ganham uma vida extra"},
+        {"Nome": "Templo Zen", "Panteao": "Xintoísta", "Habilidade": "Enquanto tiver um deus xintoísta nesse campo, o próximo jogador não pode\nUsar as habilidades dos campos dele"}
     ]
 }
