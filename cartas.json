@@ -1,0 +1,19 @@
+{
+    "Deuses": [
+        {"Nome": "Ares", "Panteao": "Grego", "Habilidade mesa": "Destrua qualquer deus na mesa\nQue não seja grego ou nobre."},
+        {"Nome": "Zeus", "Panteao": "Grego", "Habilidade mesa": "Lance um raio e destua qualquer deus de 1 oponente", 
+        "Habilidade mao": "Lance um raio e desative 1 campo oponente", "Nobre": true},
+
+        {"Nome": "Bastet", "Panteao": "Egipício", "Habilidade mesa": "Pode ser colocada em qualquer campo e ativa seu efeito"},
+        {"Nome": "Anúbis", "Panteao": "Egipício", "Habilidade mao": "Se o oponente tiver mais cartas em campo que você, destrua um deus dele",
+        "Habilidade mesa": "Escolha um jogador para descartar uma carta, você pode comprar uma carta do baralho depois disso"},
+
+        {"Nome": "Hel", "Panteao": "Nórdico", "Habilidade mesa": "Descarte 1 carta e compre +2 cartas do baralho"},
+        {"Nome": "Odin", "Panteao": "Nórdico", "Habilidade mesa": "Veja a mão de 1 adversário e, se tiver um deus nórdico, pegue ele",
+        "Habilidade mao": "Veja as 3 primeiras cartas do baralho, se tiver um deus nórdico, pegue ele", "Nobre": true},
+
+        {"Nome": "Izanami", "Panteao": "Xintoísta", "Habilidade mesa": "Descarte essa carta e destrua 1 deus de cada oponente"},
+        {"Nome": "Susanoo", "Panteao": "Xintoísta", "Habilidade mao": "Devolve todas as cartas de um panteão a sua escolha para a mão dos dono\nExceto xintoísta",
+        "Habilidade mesa": "Descarta uma carta do mercado e repõe imediatamente", "Nobre": true}
+    ]
+}
