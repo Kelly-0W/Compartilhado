@@ -25,16 +25,41 @@ class Camp():
         self.pantheon = pantheon
         self.skill = skill
 
-class Player(Gods, Camp):
+class Player():
     def __init__(self, name):
         self.name = name
         self.hand = []
         
-    def show_hand(self, cards):
+    def show_hand(self):
         print("=== Sua mão é: ===")
         for i, card in enumerate(self.hand, start=1):  # mostra a mão
             print(f"{i}º {card.name} | {card.pantheon}")
+    
+    def draw_card(self):
+        if len(deck_gods) > 0:
+            card = deck_gods.pop(0)
+            self.hand.append(card)
+        else:
+            print("O baralho acabou!")
+    
+    def place_card(self):
+        if not self.hand:
+            print("Você não possuí cartas para jogar")
+            return None
+        
+        self.show_hand()
 
+        print("=== Selecione uma carta pelo Index ===")
+        try:
+            choice = int(input())
+            chosen_card = self.hand.pop(choice - 1)
+            return chosen_card
+        
+        except (ValueError, IndexError):
+            print("Escolha inválida")
+            return None
+
+        
 deck_gods = []
 commom_gods = []
 royal_gods = []
